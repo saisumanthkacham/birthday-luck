@@ -1,0 +1,122 @@
+:root{
+    --primary:#023047;
+    --secoundary: #a9d6e5;
+}
+
+body{
+    background-color:var(--primary);
+}
+
+.container{
+    display:flex;
+    flex-direction: column;
+    align-self: center;
+    width: fit-content;
+    margin : 6% auto;
+    background-color:var(--secoundary);
+    padding: 20px;
+    border-radius: 0.3rem;
+    color:var(--primary) ;
+}
+.heading{
+    padding: 0 0 12px 15px;
+}
+
+.bday-date,.lucky-numb{
+    padding: 2.3%;
+    width:18.5rem;
+    border : 1px solid black;
+    margin: 5%;
+    border-radius: 0.3rem;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+    background-color: white;
+}
+
+label{
+    font-size: 20px;
+    text-align: center;
+    font-weight: 20px;
+    font-weight: bold;
+}
+.check-btn{
+    margin: 4% 30%;
+    margin-bottom: 0%;
+    padding: 8px;
+    border-radius: 0.3rem;
+    background-color: var(--primary);
+    color: var(--secoundary);
+    border: 1px solid var(--secoundary);
+}
+.output{
+    font-weight:700;
+    font-size: 25px;
+}
+.wrong-btn{
+    background-color: var(--secoundary);
+    border: 1px solid var(--secoundary);
+    font-size: 18px;
+    
+}
+.privacy-note{
+    border: 1px solid var(--primary); 
+    padding : 8px;
+    margin-bottom:20px; 
+    border-radius: 0.3rem;
+    font-weight: bold;
+}
+.item-link{
+list-style-type: none;
+
+}
+.foot{
+    width: fit-content;
+    margin : 8% auto;
+    text-align: center;
+   
+}
+.initem{
+display: inline;
+
+font-size: 25px;
+}
+.item{
+    color: var(--secoundary);
+    padding:10px;
+}
+.made-stmt{
+    color:var(--secoundary);
+    padding:  0px 10px 10px 10px;
+    text-align: center;
+}
+.gmail-phone{
+    color:var(--primary);
+    font-size: 0px;
+  }
+
+  
+
+  @media screen and (max-width : 600px)
+  {
+    .gmail-laptop{
+        display: none;
+        padding: 0px;
+    }
+    
+    .gmail-phone{
+        font-size: 25px;
+        color:var(--secoundary);
+        padding: 2px;
+    }
+    .foot{
+    margin-top:35%;
+    }
+   .item-link{
+       margin-left: -20%;
+   }
+    .container{
+      margin-top: 20%;
+
+    }
+
+  }
